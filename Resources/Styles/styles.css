@@ -1,0 +1,122 @@
+^shell {
+    -maui-shell-background: darkcyan;
+    -maui-shell-title: lightcyan;
+    text-align:center;
+}
+
+^contentpage {
+    background-color: lightgray;
+}
+
+
+^contentview {
+    background-color:white;
+    border-color:black;
+    border-width:5;
+    border-radius:5;
+}
+
+
+.TitleLabel {
+    color: darkcyan;
+    font-size: large;
+    width: 400;
+    height: 150;
+    border-width:5;
+    border-color:black;
+    padding-bottom: 5;
+    font-weight: bolder;
+    border:solid black;
+}
+
+formInput>button{
+    margin-left: 5;   
+}
+
+.formInput>editor{
+    background-color:lightblue;
+    color: black;
+    margin-left: 3;
+    border-bottom-width: 5;
+    border-block-color: black;
+}
+
+.HorizontalStudent > label {
+    font-size: 18;
+    color: darkcyan;
+    font-weight: bold;
+    margin: 10;
+}
+
+#Klasa{
+    color:purple;
+    font-size: 20;
+}
+
+#backButton {
+    border-color: black;
+    background-color: darkred;
+    color: red;
+    font-size: 18;
+    margin-left: 5;
+    margin-top:10;
+}
+
+#Losowanie{
+    border-color:black;
+    background-color:aqua;
+    color:black;
+    font-size: 18;
+    margin-left:5;
+    margin-top:10;
+}
+
+
+.addButton {
+    background-color: lightgreen;
+    margin:15;
+    color: darkgreen;
+    font-size: 18;
+    font-weight: bolder;
+    width: 150;
+}
+
+.deleteButton {
+    background-color: lightcoral;
+    border-color: black;
+    margin-left: 8;
+    color: darkred;
+    font-size:18;
+    font-weight: bolder;
+    width: 150;
+}
+#deleteClass {
+    background-color: lightcoral;
+    border-color: black;
+    margin-left:1100;
+    margin-bottom:50;
+    color: darkred;
+    font-size: 18;
+    font-weight: bolder;
+    width: 150;
+}
+#classFrame {
+    background-color: darkcyan;
+    border-color: black;
+    border-style: solid;
+    border: thick;
+    border-radius: 10%;
+    display:flex;
+}
+
+
+#classroomName {
+    color:lightcyan;
+    font-size:large;
+    margin-top:25;
+    margin-left:25
+}
+#ClassNumber{
+
+
+}
